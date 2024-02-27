@@ -1,0 +1,29 @@
+﻿body {
+    background-color: lightblue;
+}
+
+body .top-bar {
+    background-color: lawngreen;
+}
+
+body .top-bar .main-bar {
+    width: 80%;
+    background-color: yellowgreen;
+    margin: auto;
+    display: flex;
+    flex-wrap;
+}
+
+body .top-bar .main-bar .contact-left {
+    flex-grow:4;
+    background-color: mediumslateblue;
+    display: flex;
+    gap: 20px;
+    }
+
+    body .top-bar .main-bar .login-right {
+        flex-grow: 4;
+        background-color: mediumspringgreen;
+        display: flex;
+        justify-content: space-around;
+    }
